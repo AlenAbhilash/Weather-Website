@@ -126,6 +126,105 @@ button:hover {
     transition: all 0.5s ease-in;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+        .videobanner {
+            width: 100%;
+            height: 920px;
+            object-fit: cover;
+        }
+    
+        .banner3 {
+            font-size: 18px;
+        }
+    
+        button {
+            position: absolute;
+            top: 60%;
+            left: 40%;
+            color: white;
+            background-color: rgba(11, 157, 235, 0.8);
+            border-color: transparent;
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    
+        .buttonimg {
+            position: absolute;
+            top: 20%;
+            left: 7%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            opacity: 30px;
+            margin-right: 25px;
+            opacity: 75%;
+        }
+    
+        .dis {
+            position: absolute;
+            top: 6%;
+            left: 9%;
+            font-size: 15px;
+            color: rgba(11, 157, 235, 0.8);
+            cursor: pointer;
+            font-weight: bolder;
+    
+        }
+    
+        .iocnx {
+            position: absolute;
+            top: 6%;
+            left: 3%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    
+        .banner1 {
+            position: absolute;
+            top: 40%;
+            left: 52%;
+            font-size: 30px;
+            color: rgba(11, 157, 235, 0.8);
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    
+        .banner3 {
+            position: absolute;
+            top: 50%;
+            color: aliceblue;
+            left: 23%;
+            font-size: 17px;
+            text-align: justify;
+            font-weight: bolder;
+        }
+    
+        .banner2 {
+            position: absolute;
+            top: 40%;
+            left: 35%;
+            font-size: 30px;
+            color: whitesmoke;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    
+        .bannerimg {
+            position: absolute;
+            top: 40%;
+            left: 49%;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+        }
+    
+    } 
+
 @media screen and (min-width: 320px) and (max-width: 900px) {
 
     .videobanner {
