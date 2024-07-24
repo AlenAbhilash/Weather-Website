@@ -126,7 +126,7 @@ button:hover {
     transition: all 0.5s ease-in;
 }
 
-@media screen and (min-width: 400px) and (max-width: 732px) {
+@media screen and (min-width: 320px) and (max-width: 900px) {
 
     .videobanner {
         width: 100%;
@@ -208,7 +208,7 @@ button:hover {
     .banner2 {
         position: absolute;
         top: 40%;
-        left: 20%;
+        left: 17%;
         font-size: 30px;
         color: whitesmoke;
         cursor: pointer;
